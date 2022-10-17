@@ -1,0 +1,86 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  /* 1 */
+  border-width: 0;
+  /* 2 */
+  border-style: solid;
+  /* 2 */
+  border-color: #e5e7eb;
+  /* 2 */
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    margin: 0%;
+    color: white;
+    background-color: #1e293b;
+    font-family: 'Kalam', cursive;
+}
+
+
+#page-container{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+section{
+    height: 100vh;
+}
+
+img{
+    height: 43rem;
+    width: 100%;
+    object-fit: contain;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    gap: 1rem;
+}
+
+#container{
+    width: 40%;
+}
+
+.select{
+
+    width: 100%;
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+    border: #1e293b;
+}
+
+.input-cotizacion{
+    width: 100%;
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+    border: #1e293b;
+}
+p{
+    font-weight: bold
+}
+
+.sub-title{
+    display: flex;
+    gap: 0.5rem;
+    font-size: 25px;
+    text-align: center;
+    flex-direction: column;
+}
+
+#cotizar-btn{
+    padding: 1rem 0px;
+    width: 100%;
+    background-color: #6c63ff;
+    border-radius: 0.5rem;
+    font-family: 'Kalam', cursive;
+}
+
